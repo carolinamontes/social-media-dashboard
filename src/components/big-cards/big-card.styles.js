@@ -20,8 +20,10 @@ const StyledBigCard = styled.div`
 		width: 100%;
 		height: 100%;
 		border-radius: inherit;
-		/* background-color: ${({ $borderColor }) => $borderColor}; */
-		background-color: red;
+		${({ $borderColor }) =>
+			$borderColor.includes('gradient')
+				? `background-image: ${$borderColor}`
+				: `background-color: ${$borderColor}`}
 	}
 `;
 
@@ -69,6 +71,7 @@ const StyledArrow = styled.img``;
 const StyledUpdate = styled.span`
 	font-size: 0.75rem;
 	color: green;
+	color: ${({ $arrow }) => ($arrow.includes('up') ? '#1eb589' : '#DC414C')};
 `;
 
 export {

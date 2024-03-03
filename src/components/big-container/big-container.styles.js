@@ -12,6 +12,7 @@ const StyledBigCardContainer = styled.div`
 
 	@media screen and (width>=768px) {
 		flex-direction: row;
+		justify-content: center;
 	}
 `;
 

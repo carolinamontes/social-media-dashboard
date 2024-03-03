@@ -12,7 +12,7 @@ const BigCard = ({icon, iconName, username, number, category, arrow, update, bor
             <StyledCategory>{category}</StyledCategory>
             <StyledBigCardFooter>
                 <StyledArrow src={arrow} alt="arrow" />
-                <StyledUpdate>{update}</StyledUpdate>
+                <StyledUpdate $arrow={arrow}>{update}</StyledUpdate>
             </StyledBigCardFooter>
 
         

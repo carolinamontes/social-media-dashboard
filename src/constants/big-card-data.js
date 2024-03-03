@@ -32,11 +32,7 @@ export const BIG_CARD_DATA = [
 		category: 'Followers',
 		arrow: '/images/icon-up.svg',
 		update: '1099 Today',
-		borderColor: {
-			colorA: '#DF4896',
-			colorB: '#EE877E',
-			colorC: '#FDC366'
-		}
+		borderColor: 'linear-gradient(to right, #DF4896, #EE877E, #FDC366)'
 	},
 	{
 		id: v4(),
@@ -45,8 +41,8 @@ export const BIG_CARD_DATA = [
 		username: 'NathanF',
 		number: 8239,
 		category: 'Subscribers',
-		arrow: '/images/icon-up.svg',
+		arrow: '/images/icon-down.svg',
 		update: '144 Today',
-		borderColor: '#1DA1F2'
+		borderColor: '#C4032B'
 	}
 ];
