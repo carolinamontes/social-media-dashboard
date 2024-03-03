@@ -14,7 +14,9 @@ img{
 
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #ffff;
+    background-color: #1D1F29;
 }
 a{
     text-decoration: none;
